@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Syncopate:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
@@ -18,7 +19,7 @@ body {
   font-size: 5.12rem;
 }
 .display-2 {
-  font-family: 'Syncopate', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.6rem;
   font-display: swap;
 }
@@ -1215,7 +1216,7 @@ section.lazy-placeholder:after {
 .cid-s0V7trQ0hT {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #efefef;
+  background-color: #c5ded7;
 }
 .cid-s0V7trQ0hT .mbr-section-subtitle,
 .cid-s0V7trQ0hT .mbr-text {
@@ -1294,7 +1295,7 @@ section.lazy-placeholder:after {
   opacity: 1;
 }
 .cid-s0V7trQ0hT .mbr-section-title {
-  color: #1e836c;
+  color: #ffffff;
 }
 .cid-s0V7trQ0hT .mbr-section-subtitle {
   color: #545454;
