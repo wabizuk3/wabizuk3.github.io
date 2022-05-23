@@ -1,0 +1,261 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #60a9ff;
+}
+
+.container-fluid{
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+
+img{
+    height: 3rem;
+    
+} 
+
+
+    
+li.nav-item{
+    font-size: medium;
+}
+
+.container2, .container3 {
+    background-color: #FFA500;
+    
+    
+}
+
+.container2 p{
+    font-size: xx-large;
+    margin-top: 250px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+    
+    
+}
+
+.tagline{
+    font-size: 6.5rem;
+    font-weight: 800;
+}
+
+
+.container3{
+    display: flex;
+    align-items: center;
+}
+
+.row img{
+    width: auto;
+    margin: auto;
+}
+
+p.service{
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+
+/* Feature Page */
+
+header {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.context {
+    font-size: 1.3rem;
+}
+
+.row1, .row2, .row3, .row4 {
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 20px 0px;
+    max-width: 100%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.service{
+    text-align: center;
+}
+
+.service img{
+    height: 500px;
+    width: auto;
+}
+
+.col-md-6{
+    text-align: left;
+}
+
+
+
+span.gears, .seed, .cart, .sale, .customerService, .question, .feedback, .happy {
+    font-size: 250%;
+    
+}
+
+
+.infoHeader{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.infoText {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+/*About Us*/
+.aboutUs{
+    background-color: #FFA500;
+}
+
+.aboutUsLogo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutUsContext {
+   margin-top: 110px;
+   margin-bottom: 90px;
+   text-align: justify;
+   font-size: 1.3rem;
+}
+
+.stratChamp img, .agencyPartner img{
+    height: 80px;
+    text-align: center;
+    
+}
+
+.expertBadge img{
+    height: 78px;
+    text-align: center;
+}
+
+.builderChamp img {
+    height: 85px;
+    text-align: center;
+}
+
+/* Pricing */
+.container.pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .pricing-plan {
+    border-bottom: 1px solid #e1f1ff;
+  }
+  .pricing-plan:last-child {
+    border-bottom: none;
+  }
+  
+  .pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+  }
+  
+  .pricing-header {
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .pricing-features {
+    margin: 50px 0 25px;
+    color: #ff8001;
+  }
+  
+  .pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+    
+  }
+  
+  .pricing-features-item:last-child{
+    border-bottom: 1px solid #e1f1ff;
+  }
+  
+  .pricing-price {
+    color: #333333; 
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .pricing-button {
+    border: 1px solid #333333;
+    border-radius: 10px;
+    color: #333333;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  .pricing-button:hover, .pricing-button:focus {
+    background-color: lightgray;
+  }
+  
+  .pricing-button.is-featured {
+    background-color: #333333;
+    color: white;
+  }
+  
+  .pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+    background-color: #FFA500;
+    color: white;
+  }
+  
+
+  
+  @media (min-width: 900px){
+    .panel {
+      flex-direction: row;
+    }
+    .pricing-plan {
+      border-bottom: none;
+      border-right: 1px solid #e1f1ff;
+      padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+      border-right: none;
+    }
+  }
